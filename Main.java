@@ -40,7 +40,6 @@ public class Main {
             transactions = transactionLoader.loadTransactions(args[1]);
             datePQ = new PriorityQueue<>(new TransactionComparator());
             
-            //
             for (Transaction t : transactions) {
                 String payer = t.getPayer();
                 int transactionPoints = t.getPoints();
@@ -58,7 +57,6 @@ public class Main {
                 throw new IllegalArgumentException("Account total is less than points to spend.");
             }
     
-            // TODO: Write detailed comments
             while (pointsToSpend > 0) {
                 Transaction t = datePQ.peek();
                 String payer = t.getPayer();
