@@ -1,9 +1,6 @@
 # fetch-rewards
 Fetch Backend Take Home Test Submission for Victor Nguyen
 
-Introduction:
-This GitHub repository contains a solution to the coding exercise provided by Fetch Rewards. The code is written in Java and is designed to read transactions from a CSV file, spend points based on certain rules, and return all payer point balances. This README provides instructions on how to compile and run the code, as well as an overview of the project structure.
-
 Getting Started:
 To begin using the code in this repository, you will need to have Java and a Java IDE (such as Eclipse or IntelliJ IDEA) installed on your computer. Once you have these tools installed, you can clone the repository to your local machine using the following command:
 
