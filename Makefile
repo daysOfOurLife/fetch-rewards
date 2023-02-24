@@ -1,5 +1,5 @@
 run: Main.class
-	java Main 4000 transactions.csv
+	java Main 5000 transactions.csv
 
 Main.class: Main.java Transaction.class TransactionLoader.class TransactionComparator.class
 	javac Main.java
